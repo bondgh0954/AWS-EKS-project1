@@ -21,11 +21,21 @@
 
    <p align="">
    <h2>step1    Configure IAM Role for EKS Cluster</h2>
+   Create a new role in the IAM service of AWS
+   Select EKS cluster service
+   Add AmazonEKSClusterPolicy to the role
+   <img src='./is/a3.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
  
 
 
-   <h2>step2  Deploy Mysql database with 3 secondary replicas and volumes for data persistence</h2>
+   <h2>step2  Create VPC with Cloudformation Template for worker Nodes</h2>
+   EKS cluster needs specific networking configuration<br/>
+   Default VPC is not optimized for it<br/>
+   Search aws documentation for Yaml configuration file for creating VPC for eks cluster<br/>
+   create stack in aws cloudformation<br/>
+   paste code url into aws cloudformation to create VPC for EKS cluster<br/>
+   
   
 
    <img src='./is/a3.png' height="80%" width="80%" alt="Disk Sanitization Step">
@@ -37,7 +47,7 @@
 
    
 
-   <h2>step3   Deploy the Java application with 2 replicas</h2>
+   <h2>step3 Create EKS cluster</h2>
 
  
    
