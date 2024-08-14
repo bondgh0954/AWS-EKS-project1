@@ -9,7 +9,7 @@
 
 <h2>Detailed Description of Project </h2>
 1. Configure necessary IAM roles<br/>
-2. Create VPC with Cloudformation Template for worker Nodes<br/>
+2. Create VPC with Cloudformation Template for worker nodes<br/>
 3. Create EKS cluster (Control Plane Nodes)<br/>
 4. Create Node Group for Worker Nodes and attach to EKS cluster<br/>
 5. Configure Auto-scaling of worker nodes<br/>
