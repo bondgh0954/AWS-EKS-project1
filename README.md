@@ -33,8 +33,17 @@
    EKS cluster needs specific networking configuration<br/>
    Default VPC is not optimized for it<br/>
    Search aws documentation for Yaml configuration file for creating VPC for eks cluster<br/>
-   create stack in aws cloudformation<br/>
-   paste code url into aws cloudformation to create VPC for EKS cluster<br/>
+   Create stack in aws cloudformation<br/>
+   Copy and paste the url template in the text area under Amazon s3 url <br/>
+   
+  link:   https://s3.us-west-2.amazonaws.com/amazon-eks/cloudformation/2020-10-29/amazon-eks-vpc-private-subnets.yaml<br/>
+
+  Give your stack a name and create vpc <br/>
+
+  vpc is created with the name 'vpc-stack'
+  <img src='./img/w3.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
+  
    
   
 
