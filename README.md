@@ -63,8 +63,18 @@
 
    <h2>step4  Create Node Group for Worker Nodes and attach to EKS cluster</h2>
    Before creating the nodes in the cluster, Create IAM role for the node Group <br/>
+   
+   
    IAM role is given 3 permissions<br/>
    <img src='./img/w5.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
+   Create nodegroups in the cluster from "compute"<br/>
+   The created IAM role is selected for the node IAM role during creation <br/>
+   Select the nodetype<br/>
+   Capacity and ImageType<br/>
+
+   <img src='./img/w6.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
  
      
 
