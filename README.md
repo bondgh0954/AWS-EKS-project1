@@ -44,19 +44,17 @@
   <img src='./img/w3.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
 
   
-   
-  
-
-   <img src='./is/a3.png' height="80%" width="80%" alt="Disk Sanitization Step">
-
-
-
-   
-  
-
-   
 
    <h2>step3 Create EKS cluster</h2>
+   Create Kubernetes cluster from Elastic Kubernetes Service <br/>
+   Configuration 
+   use the created IAM role as the cluster service role <br/>
+   Networking configuration<br/>
+   the created VPC is used as the VPC for the cluster<br/>
+
+
+   Cluster is created and acive <br/>
+   <img src='./img/w4.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
    
 
  
