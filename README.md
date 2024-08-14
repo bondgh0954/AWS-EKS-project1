@@ -20,7 +20,7 @@
 
 
    <p align="">
-   <h2>step1    Configure IAM Role for EKS Cluster</h2>
+   <h2>step 1    Configure IAM Role for EKS Cluster</h2>
    Create a new role in the IAM service of AWS<br/>
    Select EKS cluster service<br/>
    Add AmazonEKSClusterPolicy to the role<br/>
@@ -29,7 +29,7 @@
  
 
 
-   <h2>step2  Create VPC with Cloudformation Template for worker Nodes</h2>
+   <h2>step 2  Create VPC with Cloudformation Template for worker Nodes</h2>
    EKS cluster needs specific networking configuration<br/>
    Default VPC is not optimized for it<br/>
    Search aws documentation for Yaml configuration file for creating VPC for eks cluster<br/>
@@ -45,7 +45,7 @@
 
   
 
-   <h2>step3 Create EKS cluster</h2>
+   <h2>step 3 Create EKS cluster</h2>
    Create Kubernetes cluster from Elastic Kubernetes Service <br/>
    Configuration 
    use the created IAM role as the cluster service role <br/>
@@ -61,7 +61,7 @@
    
    
 
-   <h2>step4  Create Node Group for Worker Nodes and attach to EKS cluster</h2>
+   <h2>step 4  Create Node Group for Worker Nodes and attach to EKS cluster</h2>
    Before creating the nodes in the cluster, Create IAM role for the node Group <br/>
    
    
@@ -81,6 +81,11 @@
 
   Connect to the cluster <br/>
   <img src='./img/w8.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
+
+  
+   <h2>step 5  Configure Auto-scaling of worker nodes</h2>
+   
 
  
      
