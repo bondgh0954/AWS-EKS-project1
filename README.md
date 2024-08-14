@@ -21,9 +21,9 @@
 
    <p align="">
    <h2>step1    Configure IAM Role for EKS Cluster</h2>
-   Create a new role in the IAM service of AWS
-   Select EKS cluster service
-   Add AmazonEKSClusterPolicy to the role
+   Create a new role in the IAM service of AWS<br/>
+   Select EKS cluster service<br/>
+   Add AmazonEKSClusterPolicy to the role<br/>
    <img src='./img/w1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
  
