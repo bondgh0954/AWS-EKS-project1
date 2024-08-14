@@ -79,8 +79,8 @@
    <img src='./img/w7.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
 
 
-   The cluster can be connected to <br/>
-   <img src='./img/w8.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+  Connect to the cluster <br/>
+  <img src='./img/w8.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
 
  
      
