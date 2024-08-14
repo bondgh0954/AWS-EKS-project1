@@ -75,6 +75,9 @@
 
    <img src='./img/w6.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
 
+   NodeGroup successfully created<br/>
+   <img src='./img/w7.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
  
      
 
