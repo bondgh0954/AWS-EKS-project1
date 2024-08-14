@@ -85,6 +85,14 @@
 
   
    <h2>step 5  Configure Auto-scaling of worker nodes</h2>
+   Configuring autoscaling helps to save cost by adjusting the number of nodes<br/>
+   when the load of application is higher or lower <br/>
+
+   Create a custom policy and attach to the the role of the nodeGroup<br/>
+   <img src='./img/w9.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
+   Attach the policy to the nodeGroup IAM role<br/>
+   <img src='./img/w10.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
    
 
  
