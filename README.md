@@ -24,7 +24,7 @@
    Create a new role in the IAM service of AWS<br/>
    Select EKS cluster service<br/>
    Add AmazonEKSClusterPolicy to the role<br/>
-   <img src='./img/w1.png' height="80%" width="80%" alt="Disk Sanitization Steps">
+   <img src='./img/w2.png' height="80%" width="80%" alt="Disk Sanitization Steps">
 
  
 
