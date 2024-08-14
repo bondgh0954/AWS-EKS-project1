@@ -98,6 +98,12 @@
    
    Attach the policy to the nodeGroup IAM role<br/>
    <img src='./img/w10.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
+
+   Deploy the cluster autoscaler yaml file in the cluster<br/>
+   https://raw.githubusercontent.com/kubernetes/autoscaler/master/cluster-autoscaler/cloudprovider/aws/examples/cluster-autoscaler-autodiscover.yaml
+
+   <img src='./img/w11.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
    
 
  
