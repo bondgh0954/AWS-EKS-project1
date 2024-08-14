@@ -104,6 +104,18 @@
    https://raw.githubusercontent.com/kubernetes/autoscaler/master/cluster-autoscaler/cloudprovider/aws/examples/cluster-autoscaler-autodiscover.yaml
 
    <img src='./img/w11.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+
+   Edit the cluster autoscaler deployment<br/>
+   <img src='./img/w12.png' height="80%" width="80%" alt="Disk Sanitization Step"> 
+   
+   add: "cluster-autoscaler.kubernetes.io/safe-to-evict:'false'" to the annotation<br/>
+
+   command:<br/>
+   - balance-similar-node-groups
+   - skip-nodes-with-system-pods=false
+
+   Replace the cluster name with the name of your cluster<br/>
+   Replace the kubernetes version with the version of the cluster<br/>
    
 
  
