@@ -116,6 +116,8 @@
 
    Replace the cluster name with the name of your cluster<br/>
    Replace the kubernetes version with the version of the cluster<br/>
+   The tags to specific version can be found in kubernetes github repo<br/>
+   https://github.com/kubernetes/autoscaler/tags
    
 
  
